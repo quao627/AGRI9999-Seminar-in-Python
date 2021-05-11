@@ -1,5 +1,5 @@
 # AGRI9999-Seminar-in-Python
-## Install Python:
+## Python Installation:
 **Anaconda:** 
 Anaconda is a distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment. <br>
 Link: https://docs.anaconda.com/anaconda/install/ <br>
