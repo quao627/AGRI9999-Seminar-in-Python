@@ -10,8 +10,9 @@ Link: https://www.jetbrains.com/help/pycharm/installation-guide.html#toolbox
 
 ## Schedule
 1, Intro to Python: Installation, Syntax, Basic data structure, Read file <br>
-Project: Monte Carlo Simulation <br>
-2, How to write pythonic code: Advanced data structure, List comprehension, Tuple assignment, etc <br>
+Exercise: Monte Carlo Simulation <br>
+Assignment: euler.py <br>
+2, How to write pythonic code: Advanced Control Flow, Tuple assignment, Zip and Unzip <br>
 Project: Word Counter <br>
 3, Build a program: Function, Object-Oriented Programming <br>
 Project: TBA <br>
