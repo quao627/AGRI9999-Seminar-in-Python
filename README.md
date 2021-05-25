@@ -14,8 +14,8 @@ Exercise: Monte Carlo Simulation <br>
 Assignment: euler.py <br>
 2, How to write pythonic code: Advanced Control Flow, Tuple assignment, Zip and Unzip <br>
 Project: Word Counter <br>
-3, Build a program: Function, Object-Oriented Programming <br>
-Project: TBA <br>
+3, Build a program: Function, Lambda Function <br>
+Project: Coding Exercise: risk.py, word_counter.py <br>
 4, (optional)Basic Algorithms: Searching & Sorting, Recurssion, Graph, etc <br>
 Project: Maze Solver <br>
 5, (optional)Advanced Algorithms: Dynamic Programming, Greedy, etc <br>
