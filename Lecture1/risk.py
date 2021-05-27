@@ -51,6 +51,7 @@ def for_approach(num_iterations):
         else:
             defender_gain += 1
             
+            
         '''
         attacker_gain = (int(attacker[0] > defender[0] + 0.5) + 
                         int(attacker[1] > defender[1] + 0.5))
