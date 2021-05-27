@@ -15,7 +15,7 @@ def series(n_terms=1000):
 
 def limit(n_limit=1000):
     """Estimate e with limit: (1 + 1/n) ^ n"""
-    pass
+    print((1 + 1/n_limit)**n_limit)
 
 if __name__ == '__main__':
     estimation_1 = series()

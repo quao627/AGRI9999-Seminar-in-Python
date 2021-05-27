@@ -17,6 +17,7 @@ Risk Simulation:
 """
 
 import random
+import math
 import time
 import numpy as np
 
@@ -38,6 +39,10 @@ def for_approach(num_iterations):
         defender_gain = 0
         attacker = random.choices(dice_options, k=3)
         defender = random.choices(dice_options, k=2)
+        '''
+        dice = [math.ceil(random.random()*6) for i in range(5)]
+        attacker, defender = dice[:3], dice[3:]
+        '''
         attacker.sort(reverse=True)
         defender.sort(reverse=True)
         
