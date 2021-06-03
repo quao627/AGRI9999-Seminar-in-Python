@@ -51,7 +51,8 @@ def generate_text(starting_sentence, model, max_len=30):
     for i in range(max_len - LEN):
         if words in model:
             prob_dist = model[words]
-            word = random.choices(list(prob_dist.keys()), weights=list(prob_dist.values()), k=1)[0]
+            word = random.choices(list(prob_dist.keys()), \
+                                  weights=list(prob_dist.values()), k=1)[0]
             sentence.append(word)
             words = tuple([*(words[1:]), word])
         else:
