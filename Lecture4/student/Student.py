@@ -1,3 +1,6 @@
+def add(a, b):
+    return a+b
+
 class Student:
     def __init__(self, fname, lname, major='Undecided', GPA=4.0):
         self.fname = fname
@@ -29,4 +32,5 @@ class Student:
 
     def get_gpa(self):
         return self.__GPA
+
 

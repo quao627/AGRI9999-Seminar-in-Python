@@ -21,7 +21,6 @@ import math
 import time
 import numpy as np
 
-
 '''
 Probablistic Model:
     Weak Law of Large Numbers:
@@ -33,7 +32,7 @@ def for_approach(num_iterations):
     
     attacker_sum = 0
     defender_sum = 0
-    dice_options = [i for i in range(1, 7)]
+    dice_options = [i for i in range(1, 7, 1)]
     for i in range(num_iterations):
         attacker_gain = 0
         defender_gain = 0

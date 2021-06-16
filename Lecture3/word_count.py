@@ -22,8 +22,7 @@ def get_n_top_words(n=10):
                     if word in word_counter:
                         word_counter[word] += 1
                     else:
-                        word_counter[word] = 1
-                    
+                        word_counter[word] = 1             
                         word_counter[word] = 1
     return sorted(word_counter.items(), key=lambda x: x[1], reverse=True)[:n]
         
